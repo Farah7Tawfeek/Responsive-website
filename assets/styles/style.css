@@ -27,6 +27,7 @@ body {
     justify-content: space-between;
     padding: 0 10px;
     align-items: center;
+
 }
 
 .brand {
@@ -90,6 +91,56 @@ transition: transform 0.9s ease-in-out;
 
 .close-menu:hover,
 .item:hover {
-color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.banner {
+    position: relative;
+    height: 35rem;
+    overflow: hidden;
+}
+
+.banner_video {
+    position: absolute;
+
+}
+
+.banner_video:after {
+    content: "";
+    position:absolute;
+    width: 100%;
+    height:100%;
+    background: linear-gradient(135deg, #CE1B28 0%, #111111 74%);
+    top:0;
+    left:0;
+    z-index:2;
+    opacity: 0.6;
+}
+
+.banner_caption {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index:3;
+}
+
+.banner_title {
+    font-size: 4rem;
+    font-weight:normal;
+    color: white;
+}
+
+a { 
+    color: inherit;
+    text-decoration: none;
+}
+
+.banner_paragraph {
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.5);
+
 }
 
