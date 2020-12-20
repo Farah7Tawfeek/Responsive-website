@@ -132,7 +132,7 @@ transition: transform 0.9s ease-in-out;
     color: white;
 }
 
-a { 
+.link_prop { 
     color: inherit;
     text-decoration: none;
 }
