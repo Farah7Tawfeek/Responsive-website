@@ -2,9 +2,13 @@
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    const menuElement = document.querySelector(".menu");
-    const slideMenuElement = document.querySelector(".slide-menu");
-    const closeIconElement = document.querySelector(".close-menu");
+    function getHtmlElement(className) {    
+        return document.querySelector(className);
+    }
+
+    const menuElement = getHtmlElement(".menu");
+    const slideMenuElement = getHtmlElement(".slide-menu");
+    const closeIconElement = getHtmlElement(".close-menu");
 
     if ( menuElement && slideMenuElement ) {
         menuElement.addEventListener("click", () => {
