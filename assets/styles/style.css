@@ -46,12 +46,13 @@ body {
 .slide-menu {
 position: fixed;
 top: 0;
-left:100%;
-bottom:0;
+left: 100%;
+bottom: 0;
 width: 335px;
 background-color: #111111;
 transform: translateX(0%);
 transition: transform 0.9s ease-in-out;
+z-index: 4;
 }
 
 .slide-menu.active {
