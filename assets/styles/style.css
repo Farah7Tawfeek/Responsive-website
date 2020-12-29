@@ -278,8 +278,7 @@ ul {
 
 .mapsite_list li,
 .socialMedia li {
-    padding: 10px;
-    
+    padding: 10px; 
 }
 .mapsite_list li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
