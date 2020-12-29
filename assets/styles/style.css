@@ -267,6 +267,7 @@ footer {
     width: 33.3%;
     padding: 45px 0;
     padding-right: 90px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 ul {
@@ -278,13 +279,14 @@ ul {
 .mapsite_list li,
 .socialMedia li {
     padding: 10px;
-
+    
 }
 .mapsite_list li {
-    border-bottom: 1px solid  rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .copyRight {
-
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.5); 
 }
 
