@@ -8,7 +8,7 @@
     font-style: normal;
     font-weight: 200;
     font-display: swap;
-    src: url("../fonts/FiraSans-Medium.ttf") format('woff2');
+    src: url("../fonts/Raleway-VariableFont_wght.ttf") format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -156,7 +156,7 @@ z-index: 4;
     color: #555555;
 }
 
-.intro_wrapper {
+.wrapper {
     width: 70%;
     display: flex;
     flex-direction: column;
@@ -183,3 +183,55 @@ z-index: 4;
 .red {
     color: #CE1B28;
 }
+
+.ourTeam_section {
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.blocks_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+}
+
+.blockQuote {
+    width: 320px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px 0 36px 32px;
+    margin: 25px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.parghraph_props {
+    border-left: .5rem solid ;
+    border-left-color: grey;
+    padding: 30px;
+    margin: 12px;
+}
+
+.image {
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    padding-right: 14px;;
+}
+
+strong {
+    color: #CE1B28; 
+}
+
