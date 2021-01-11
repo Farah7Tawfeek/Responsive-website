@@ -157,11 +157,20 @@ z-index: 4;
 }
 
 .wrapper {
-    width: 70%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 145px 0 130px 0;
+
+}
+
+.background_image {
+    background-image: url('../images/building.jpg');
+    background-size: cover;
+    background-position: bottom;
+    color:rgb(247, 247, 247);
 }
 
 .card {
@@ -233,5 +242,50 @@ z-index: 4;
 
 strong {
     color: #CE1B28; 
+}
+
+footer {
+    background: black;
+    color:rgb(247, 247, 247);
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.impressum {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.5);
+    
+}
+
+.aboutUs,
+.mapsite,
+.socialMedia
+{
+    width: 33.3%;
+    padding: 45px 0;
+    padding-right: 90px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mapsite_list li,
+.socialMedia li {
+    padding: 10px; 
+}
+.mapsite_list li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.copyRight {
+    padding: 30px 0;
+    color: rgba(255, 255, 255, 0.5); 
 }
 
